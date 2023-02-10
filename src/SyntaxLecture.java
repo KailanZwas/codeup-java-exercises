@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class SyntaxLecture {
 
 
@@ -100,7 +102,9 @@ public class SyntaxLecture {
 //             int eight = 8;
 //        System.out.println(eight);
 
-
+//Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter somthing you dont like.");
+//        String input
         // ================== IDENTIFIERS AND KEYWORDS (s-9)
 
         // see curriculum
@@ -157,6 +161,35 @@ public class SyntaxLecture {
 //         double num3 = 3.1;
 //         float num4 = (float) num3;
 //         System.out.println(num4);
+
+
+
+
+
+//        write a program to get the user age and print out how old they will be in 10 years
+
+//        import scanner
+
+////        create a scanner
+//        Scanner sc = new Scanner(System.in);
+////        promt the user with sout to enter age
+//        System.out.println("enter your age: ");
+////        get age with scanner neextLIne
+//        String userAge = sc.nextLine();
+////        use sout to print out the user age plus 10
+//        System.out.println(userNumAge + 10);
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter your favorite holiday.");
+//        String favoriteHoliday = sc.nextLine();
+//
+//        System.out.println("my favorite holiday is: %S", favoriteHoliday);
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("enter your age: ");
+//        int age = scanner.nextInt();
+//        System.out.println(age);
+
 
 
     }
