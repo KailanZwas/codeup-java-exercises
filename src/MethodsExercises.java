@@ -62,12 +62,12 @@ public class MethodsExercises {
 //     factorial. Continue only if the user agrees to. A factorial is a number multiplied by each of the numbers before it.
 //     Factorials are denoted by the exclamation point (n!). Ex: logging
 
-    public static int calculateFactorial(int num1, int num2){
+    public static int calculateFactorial(int num1, int num2) {
         Scanner sc = new Scanner(System.in);
 // Prompt user for number 1 -10
         System.out.println("Enter a integer from 1 to 10");
 // Collect user input
-        int userInput = getInteger(1,10);
+        int userInput = getInteger(1, 10);
 // print user input
         System.out.println(userInput);
         boolean userContinue = true;
@@ -75,14 +75,13 @@ public class MethodsExercises {
 // Ask user if they want to continue
         System.out.println("Continue? [y/N] ");
 // collect user input
-        String userContinueInput =sc.next();
+        String userContinueInput = sc.next();
 // todo:check user input y/n
 
 // todo: fork input path
 
 
-
-
+        return userInput;
     }
 
 
