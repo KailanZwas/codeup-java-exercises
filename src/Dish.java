@@ -16,17 +16,17 @@ public class Dish {
 
     private String name;
     private int price;
-    private boolean rating;
+    private boolean recommended;
 
     public void printSummary(){
 
-        System.out.printf("Jack Quins popular dish, %s\n It is priced at $%s\n It has a rating %s\n", name, price, rating);
+        System.out.printf("Jack Quins popular dish, %s\n It is priced at $%s\n It has a rating %s\n", name, price, recommended);
     }
 
     public Dish(String name, int price, boolean rating) {
         this.name = name;
         this.price = price;
-        this.rating = rating;
+        this.recommended = rating;
     }
 
     public Dish(String name, int price){
@@ -50,11 +50,11 @@ public class Dish {
         this.price = price;
     }
 
-    public boolean isRating() {
-        return rating;
+    public boolean isRecommended() {
+        return recommended;
     }
 
-    public void setRating(boolean rating) {
-        this.rating = rating;
+    public void setRecommended(boolean recommended) {
+        this.recommended = recommended;
     }
 }
