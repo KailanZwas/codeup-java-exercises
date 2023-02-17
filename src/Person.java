@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Person {
     public static int length;
     private String name;
@@ -24,6 +26,12 @@ public class Person {
     }
 
     // Getters && Setters
+   public static Person[] addPerson(Person[] persons, Person person){
+        Person[] newPersonArray = Arrays.copyOf(persons, persons.length + 1);
+        newPersonArray[newPersonArray.length - 1] = person;
+        return newPersonArray;
+   }
+
     public Person(){
 
     }

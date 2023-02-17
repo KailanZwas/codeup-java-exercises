@@ -9,9 +9,15 @@ public class ArraysExercises {
         persons[2] = new Person("stacy", 99);
 
 
-        for ( int i = 0; i < persons.length; i += 1 ){
-            System.out.println(persons[i].getName());
+        for (Person person : persons) {
+            System.out.println(person.getName());
         }
 
+        persons = Person.addPerson(persons, new Person("Dave", 22));
+
+
+        for (Person person : persons) {
+            System.out.println(person.getName());
+        }
     }
 }
