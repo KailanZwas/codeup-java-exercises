@@ -98,5 +98,18 @@ public class MethodsExercises {
 //        System.out.println(userInput);
         System.out.println(calculateFactorial(5,5));
 
+        //Create an application that simulates dice rolling.
+// todo Ask the user to enter the number of sides for a pair of dice.
+        System.out.println("Welcome to the Dice Game! Please enter the number of sides ");
+// todo Prompt the user to roll the dice.
+Scanner scanner = new Scanner(System.in);
+// todo   "Roll" two n-sided dice, display the results of each, and then ask the user if he/she wants to roll the dice again.
+
+
+  //todo Use static methods to implement the method(s) that generate the random numbers.
+
+// todo  Use the .random method of the java.lang.Math class to generate random numbers.
+
+
     }
 }
